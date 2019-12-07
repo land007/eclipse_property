@@ -1,0 +1,1 @@
+strMessage = NSLocalizedStringFromTable(@"Toast_Share_Fail",@"InfoPlist", @"");

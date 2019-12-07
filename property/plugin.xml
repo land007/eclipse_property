@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            class="com.apusic.studio.properties.editor.PropertiesEditor"
+            default="true"
+            extensions="properties"
+            icon="icons/properties_editor/properties_editor.png"
+            id="com.apusic.studio.admin.properties.editor.PropertiesEditor"
+            matchingStrategy="com.apusic.studio.properties.editor.PropertiesStrategy"
+            name="%editor.name.propertieseditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            category="com.apusic.studio.wizards"
+            class="com.apusic.studio.properties.wizard.NewResourcesWizard"
+            finalPerspective="com.apusic.studio.dev.DevPerspective"
+            icon="icons/properties_editor/properties_editor.png"
+            id="com.apusic.studio.properties.wizard.NewResourcesWizard"
+            name="%wizard.name.newproperties"
+            preferredPerspectives="com.apusic.studio.dev.DevPerspective"
+            project="false">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.apusic.studio.tools.preference.ToolsPreferencePage"
+            class="com.apusic.studio.properties.preferences.PropertiesPreferencePage"
+            id="com.apusic.studio.properties.preferences.PropertiesPreferencePage"
+            name="Properties Editor">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.apusic.studio.properties.preferences.PropertiesPreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferenceTransfer">
+   </extension>
+
+</plugin>

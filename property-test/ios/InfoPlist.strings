@@ -1,0 +1,597 @@
+/* Localized versions of Info.plist keys */
+
+//NSLocalizedStringFromTable(@"Waiting_GetLatest",@"InfoPlist", @"")
+
+CFBundleDisplayName = "哈哈看图";
+
+//通用
+"ButtonText_OK" = "确认";
+"ButtonText_Cancel" = "取消";
+"ButtonText_YES" = "是";
+"ButtonText_NO" = "否";
+"ButtonText_Back" = "返回";
+
+"TextView_LimitCharacterNote" = "你还可以输入%d字";
+"TextView_ExceededCharacterNote" = "你已超出%d字";
+
+"PickView_Photograph" = "拍照";
+"PickView_MyAlbum" = "从手机相册选择";
+"PickView_Cancel" = "取消";
+"PickView_Male" = "男";
+"PickView_Female" = "女";
+"PickView_RemoveFavorite" = "取消收藏";
+"PickView_DeleteMyPublish" = "删除投稿";
+"PickView_DeleteMyComment" = "删除评论";
+"PickView_DeleteMyMessage" = "删除通知";
+
+"Alert_ToLogin_Title" = "是否登录？";
+"Alert_ToLogin_OK" = "现在登录";
+"Alert_ToLogin_Cancel" = "以后再说";
+"Alert_RegisterFail_Title" = "注册并登录成功，激活链接已发送到您邮箱。激活邮箱后，可享受更多服务。";
+"Alert_Publish_Giveup" = "是否放弃本次编辑？";
+
+"Alert_Update_CheckFail" = "检测版本失败";
+"Alert_Update_Button_Update" = "升级";
+"Alert_Update_Button_NoWarning" = "不再提醒";
+"Alert_Update_Button_SayLater" = "以后再说";
+"Alert_Update_Button_Latest" = "已是最新版本";
+
+"Alert_Share_NotInstallWechat" = "未安装微信，是否现在去下载？";
+"Alert_Share_Button_SayLater" = "以后再说";
+"Alert_Share_Button_ToInstall" = "现在下载";
+
+"Toast_Publish_NoPicture" = "请选中要发表的图片";
+"Toast_Publish_MoreCharacters" = "字数太多了";
+"Toast_Publish_NoCommentWarning" = "请输入评论内容!";
+
+"Toast_Report_Success" = "举报成功";
+"Toast_Report_Fail" = "举报失败";
+
+"Toast_Share_Success" = "分享成功";
+"Toast_Share_Fail" = "分享失败";
+"QQZoneUnabledToShareImage" = "QQ空间不支持图片分享";
+
+"Toast_Bind_Success" = "绑定成功";
+"Toast_Bind_fail" = "绑定失败";
+"Toast_Unbind_Success" = "解绑成功";
+"Toast_Unbind_Fail" = "解绑失败";
+"Toast_Operation_Fail" = "操作失败";
+
+"Toast_Login_Success" = "登录成功";
+"Toast_Login_Fail" = "登录失败";
+"Toast_Register_Fail" = "注册失败";
+
+"Toast_Favorite_Success" = "收藏成功";
+"Toast_Favorite_Fail" = "收藏失败";
+"Toast_RemoveFavorite_Success" = "收藏已取消";
+"Toast_RemoveFavorite_Fail" = "取消收藏失败";
+
+"Toast_GetCommentList_Fail" = "获取评论失败";
+
+"Toast_User_GetPI_Fail" = "获取个人信息失败";
+"Toast_User_GetMyMessage_Fail" = "获取我的消息失败";
+"Toast_User_GetMyComment_Fail" = "获取我的评论失败";
+"Toast_User_GetMyFavorite_Fail" = "获取我的收藏失败";
+"Toast_User_GetMyPublish_Fail" = "获取我的投稿失败";
+"Toast_User_GetPublishList_Fail" = "获取投稿失败";
+"Toast_User_EditNickname_Fail" = "修改昵称失败";
+"Toast_User_EditAvatar_Fail" = "修改头像失败";
+"Toast_User_EditSignature_Fail" = "修改签名失败";
+"Toast_User_EditGender_Fail" = "修改性别失败";
+"Toast_User_DeleteMyMessage_Fail" = "我的消息删除失败";
+"Toast_User_DeleteMyComment_Fail" = "我的评论删除失败";
+"Toast_User_DeleteMyPublish_Fail" = "删帖失败";
+"Toast_User_Posts_Fail" = "投稿失败";
+"Toast_User_Comment_Fail" = "发送评论失败";
+"Toast_User_Posts_Success" = "投稿成功，小编正在为您审帖!";
+"Toast_User_Comment_Success" = "发送评论成功!";
+
+"Toast_User_Anonymity" = "此为匿名用户";
+
+"Toast_Auth_EmptyMail" = "邮箱不能为空";
+"Toast_Auth_EmptyPassword" = "密码不能为空";
+"Toast_Auth_InvalidMail" = "非法的邮箱";
+"Toast_Auth_InvalidPassword" = "密码格式不正确";
+"Toast_Auth_InvalidMailAndPassword" = "用户名或密码错误";
+"Toast_Auth_Fail" = "验证失败";
+
+"Toast_RequestServer_Fail" = "请求服务器失败";
+"Toast_Net_Error" = "网络异常";
+"Toast_Net_Error_Check" = "网络异常请查看网络";
+
+"Toast_ForgotPassword_Success" = "已向邮箱中发送重置连接";
+"Toast_PostPI_Fail" = "上传个人信息失败";
+"Toast_ActivateEmail_Success" = "激活链接已发送到您邮箱";
+
+"Toast_Nickname_Short" = "您输入的昵称过短";
+"Toast_Nickname_Long" = "昵称不能多于16个字符";
+"Toast_Signature_Long" = "签名不能多于30个字";
+
+"Toast_LastTimeSee" = "你上次看到这";
+"Toast_CannotSeePost" = "帖子未上线，不能查看";
+
+"Waiting_GetLatest" = "释放加载更多";
+"Waiting_LoadMore" = "释放加载更多";
+"Waiting_NoMoreDatas" = "没有更多了";
+
+"Waiting_Logining" = "登录中...";
+"Waiting_Logouting" = "退出登录中...";
+"Waiting_Registing" = "注册中...";
+"Waiting_PostUsercenterInfos" = "提交信息中";
+"Waiting_CommentPublishing" = "正在发评论...";
+"Waiting_NodePublishing" = "正在投稿...";
+"Waiting_Binding" = "绑定中...";
+"Waiting_Unbinding" = "解绑中...";
+"Waiting_Loading" = "加载中...";
+
+"Date_JustNow" = "刚刚";
+"Date_MinutesAgo" = "%d分钟前";
+"Date_HoursAgo" = "%d小时前";
+"Date_Yesterday" = "昨天";
+"Date_TheDayBeforeYesterday" = "前天";
+"Date_Date" = "%@月%@日";
+
+//主页
+"Main_Tab_Essence" = "精华";
+"Main_Tab_Latest" = "最新";
+
+//详情页
+"Detail_Title" = "详情";
+"Detail_RightNavigationText" = "举报";
+"Detail_ButtonText_LatestComment" = "最新评论";
+"Detail_ButtonText_HotestComment" = "最热评论";
+"Detail_ButtonText_Comment" = "评论";
+
+//举报页
+"Report_Title" = "举报";
+"Report_Reason_Erotic" = "色情";
+"Report_Reason_AD" = "广告";
+"Report_Reason_Other" = "其他";
+
+//发表评论和帖子页
+"Publish_Comment_Title" = "评论";
+"Publish_Node_Title" = "投稿";
+"Publish_RightNavigationText" = "发表";
+"Publish_ShareNote" = "选中下面图标可转发";
+"Publish_PicNote" = "图片描述";
+
+//menu页
+"Menu_NotLogin" = "未登录";
+"Menu_Button_Cross" = "穿越";
+"Menu_Button_Subject" = "精华";
+"Menu_Button_Offline" = "离线阅读";
+"Menu_Button_Setting" = "设置";
+"Menu_Button_Recommend" = "推荐";
+
+"Cross_Title" = "穿越";
+
+//登录页
+"Login_Title" = "登录";
+"Login_RightNavigationText" = "注册";
+"Login_Mail_Default" = "邮箱";
+"Login_Password_Default" = "密码";
+"Login_Button_LoginText" = "登录";
+"Login_Button_ForgotPass" = "忘记密码";
+"Login_Note_Other" = "其他账号登录";
+
+//注册页
+"Register_Title" = "注册";
+"Register_RightNavigationText" = "下一步";
+"Register_Mail_Default" = "邮箱";
+"Register_Password_Default" = "设定密码";
+"Register_Note_Mail" = "注册后不可修改，请填写真实邮箱";
+"Register_Note_Password" = "英文数字字符6-16个";
+"Register_Button_Protocol" = "我已阅读并同意《账号服务协议》";
+
+//忘记密码
+"FortogPassword_Title" = "找回密码";
+"FortogPassword_RightNavigationText" = "提交";
+"FortogPassword_TextView_Default" = "请输入登录邮箱";
+"FortogPassword_Note" = "请输入登录邮箱，我们将发送重置密码链接";
+
+//激活邮箱
+"ActivateEmail_Title" = "激活邮箱";
+"ActivateEmail_RightNavigationText" = "提交";
+"ActivateEmail_Note" = " 激活邮箱后，可享受更多服务";
+
+//个人信息
+"UserCenter_Button_Save" = "保存";
+"UserCenter_Button_Skip" = "跳过";
+"UserCenter_Button_Logout" = "退出登录";
+"UserCenter_Button_Finish" = "完成";
+
+"UserCenter_Title" = "个人中心";
+"UserCenter_RightNavigationText" = "编辑";
+"UserCenter_Button_MyMessage" = "消息";
+"UserCenter_Button_MyComment" = "评论";
+"UserCenter_Button_MyFavorite" = "收藏";
+"UserCenter_Button_MyPublish" = "发布";
+
+"UserCenter_Title_Edit" = "个人资料";
+"UserCenter_Cell_BindNote" = "账号绑定";
+"UserCenter_Cell_NotBind" = "未绑定";
+"UserCenter_Cell_ActiveMailNote" = "邮箱激活";
+"UserCenter_Cell_NotActiveMail" = "未激活";
+
+"UserCenter_Title_EditNickname" = "昵称";
+"UserCenter_Title_EditSignature" = "签名";
+"UserCenter_Title_InputPI" = "完善";
+"UserCenter_TextView_NicknameDefault" = "昵称";
+
+"UserCenter_Message_Somebody" = "有人";
+"UserCenter_Message_ReplyYourComment" = "%@回复了你的评论!";
+"UserCenter_Message_ReplyYourPost" = "%@回复了你的帖子!";
+"UserCenter_Admin" = "管理员";
+
+"LoadData_UpdateFewNodes" = "您已成功更新%d条";
+"LoadData_RecommendFewNodes" = "为您推荐%d条新帖";
+"LoadData_NoNewNodes1" = "暂时没有图了喵，可以尝试%@哦！";
+"LoadData_NoNewNodes2" = "穿越";
+"LoadData_NoNewNodes_UpdateLater" = "暂时没有更新，请稍后再来";
+"LoadData_CrossTo" = "您已穿越到 %@";
+"LoadData_CrossNoNodes" = "穿越到火星啦!";
+
+"Offline_Title" = "离线阅读";
+"Offline_NoWifi" = "您的网络不是wifi，下载将耗费过多流量，是否继续？";
+"Offline_Continue" = "继续下载";
+"Offline_Canceling" = "取消中...";
+"Offline_NoMoreOfflineDatas" = "已无更多离线";
+"Offline_Progress" = "正在离线%@(%d/%d)";
+"Offline_Start" = "正在获取离线信息!";
+"Offline_End" = "已结束离线";
+"Offline_Canceled" = "已取消离线！";
+"Offline_Canceled_normal" = "已取消最新离线！";
+"Offline_Canceled_subject" = "已取消精华离线！";
+"Offline_NoDataToOffline" = "已无更多可离线内容";
+"Offline_Success1" = "%@,已成功离线%d条";
+"Offline_Success2" = "您已成功离线%d条，点击查看离线内容";
+
+"LoadingPage_Go1" = "马上哈哈";
+"LoadingPage_Go2" = "立即体验";
+
+"About_About1" = "关于哈哈";
+
+"Share_FormHahaKantu" = "来自哈哈看图";
+"Share_SinaWeibo" = "新浪微博";
+"Share_WeixinChat" = "微信好友";
+"Share_WeixinMoments" = "朋友圈";
+"Share_QQZone" = "QQ空间";
+"Share_HahakantuAbout" = "八岁那年，我捉到了一只蝉，我以为捉到了夏天，十八岁那年，我吻了哈哈看图的脸，就可以快乐到永远！想得到她请点击：%@";
+
+"Recomment_Title" = "推荐";
+"SubjectDetail_Title" = "详情";
+"Subject_Title" = "精华";
+"Subject_HotNumber" = "热度";
+
+"Setting_Title" = "应用设置";
+"Feedback_Title" = "意见反馈";
+"Feedback_RightNavigationText" = "发布";
+"Feedback_Thanks" = "感谢您的反馈";
+"Feedback_Empty" = "请输入内容";
+"Feedback_TextDefault" = "输入您的想法和建议";
+"Feedback_Age18" = "18岁以下";
+"Feedback_Age40" = "40岁以上";
+
+"Setting_NewVersion" = "有新版本%@";
+"Setting_CurVersion" = "当前版本%@";
+"Setting_ClearCache_onOffline" = "离线中，请稍后再试!";
+"Setting_ClearCache_Alert" = "确认清除缓存？";
+"Setting_CacheClearing" = "清除缓存中...";
+"Setting_VersionChecking" = "检测版本中...";
+"Setting_PushWarning" = "请去设置-推送页打开哈哈看图的推送!";
+
+//plist
+"UserCenter_Cell_Avatar" = "头像";
+"UserCenter_Cell_Nickname" = "昵称";
+"UserCenter_Cell_Gender" = "性别";
+"UserCenter_Cell_Signature" = "签名";
+"UserCenter_Cell_QQ" = "QQ";
+"UserCenter_Cell_SinaWeibo" = "微博";
+"UserCenter_Cell_JJ" = "JJ";
+"UserCenter_Cell_Mail" = "邮箱";
+//设置页面
+"Setting_Cell_ClearCache" = "清除缓存";
+"Setting_Cell_Push" = "消息推送";
+"Setting_Cell_CheckUpdate" = "检查更新";
+"Setting_Cell_ClearCache" = "应用分享";
+"Setting_Cell_ClearCache" = "关于哈哈";
+//反馈页面
+"Feedback_Cell_Contact" = "联系方式 (QQ 邮箱 电话)";
+//关于页面
+"About_About2" = "关于哈哈看图";
+"About_Protocol" = "软件协议";
+
+//通知条
+"NotificationBar_No_New" = "暂时没有图了喵，可以尝试穿越哦！";
+
+/*
+CFBundleDisplayName = "Haha Figure";//"哈哈看图";
+
+//通用
+"ButtonText_OK" = "OK";//"确认";
+"ButtonText_Cancel" = "Cancel";//"取消";
+"ButtonText_YES" = "YES";//"是";
+"ButtonText_NO" = "NO";//"否";
+"ButtonText_Back" = "Back";//"返回";
+
+"TextView_LimitCharacterNote" = "You can also enter %d characters";//"你还可以输入%d字";
+"TextView_ExceededCharacterNote" = "You have exceeded %d characters";//"你已超出%d字";
+
+"PickView_Photograph" = "Photograph";//"拍照";
+"PickView_MyAlbum" = "Select form my album";//"从手机相册选择";
+"PickView_Cancel" = "Cancel";//"取消";
+"PickView_Male" = "Male";//"男";
+"PickView_Female" = "Female";//"女";
+"PickView_RemoveFavorite" = "Remove favorite";//"取消收藏";
+"PickView_DeleteMyPublish" = "Delete my publish";//"删除投稿";
+"PickView_DeleteMyComment" = "Delete my comment";//"删除评论";
+"PickView_DeleteMyMessage" = "Delete my message";//"删除通知";
+
+"Alert_ToLogin_Title" = "To login immediately?";//"是否登录？";
+"Alert_ToLogin_OK" = "Login";//"现在登录";
+"Alert_ToLogin_Cancel" = "Say later";//"以后再说";
+"Alert_RegisterFail_Title" = "Register and login is successful,please go to your mailbox to active you accout!";//"注册并登录成功，激活链接已发送到您邮箱。激活邮箱后，可享受更多服务。";
+"Alert_Publish_Giveup" = "Do you give up this operation?";//"是否放弃本次编辑？";
+ 
+"Alert_Update_CheckFail" = "Check new version fails";//"检测版本失败";
+"Alert_Update_Button_Update" = "Update";//"升级";
+"Alert_Update_Button_NoWarning" = "Do not warning";//"不再提醒";
+"Alert_Update_Button_SayLater" = "Say later";//"以后再说";
+"Alert_Update_Button_Latest" = "It is the latest version";//"已是最新版本";
+
+"Alert_Share_NotInstallWechat" = "Go to install wechat?";//"未安装微信，是否现在去下载？";
+"Alert_Share_Button_SayLater" = "Say later";//"以后再说";
+"Alert_Share_Button_ToInstall" = "Install";//"现在下载";
+
+"Toast_Publish_NoPicture" = "Please select a picture";//"请选中要发表的图片";
+"Toast_Publish_MoreCharacters" = "Too many words";//"字数太多了";
+"Toast_Publish_NoCommentWarning" = "Please enter a comment";//"请输入评论内容!";
+
+"Toast_Report_Success" = "report success";//"举报成功";
+"Toast_Report_Fail" = "report fails";//"举报失败";
+
+"Toast_Share_Success" = "share success";//"分享成功";
+"Toast_Share_Fail" = "share fails";//"分享失败";
+ "QQZoneUnabledToShareImage" = "QQZone is unabled to share image";//QQ空间不支持图片分享
+
+"Toast_Bind_Success" = "bind success";//"绑定成功";
+"Toast_Bind_fail" = "bind fails";//"绑定失败";
+"Toast_Unbind_Success" = "unbind success";//"解绑成功";
+"Toast_Unbind_Fail" = "unbind fails";//"解绑失败";
+"Toast_Operation_Fail" = "operation fails";//"操作失败";
+
+"Toast_Login_Success" = "login success";//"登录成功";
+"Toast_Login_Fail" = "login fails";//"登录失败";
+"Toast_Register_Fail" = "register fails";//"注册失败";
+
+"Toast_Favorite_Success" = "favorite success";//"收藏成功";
+"Toast_Favorite_Fail" = "favorite fails";//"收藏失败";
+"Toast_RemoveFavorite_Success" = "remove favorite success";//"收藏已取消";
+"Toast_RemoveFavorite_Fail" = "remove favorite fails";//"取消收藏失败";
+
+"Toast_GetCommentList_Fail" = "get comment list fails";//"获取评论失败";
+ 
+"Toast_User_GetPI_Fail" = "get personal information fails";//"获取个人信息失败";
+"Toast_User_GetMyMessage_Fail" = "get my message fails";//"获取我的消息失败";
+"Toast_User_GetMyComment_Fail" = "get my comment fails";//"获取我的评论失败";
+"Toast_User_GetMyFavorite_Fail" = "get my favorite fails";//"获取我的收藏失败";
+"Toast_User_GetMyPublish_Fail" = "get my publish fails";//"获取我的投稿失败";
+"Toast_User_GetPublishList_Fail" = "get publish list fails";//"获取投稿失败";
+"Toast_User_EditNickname_Fail" = "edit nickname fails";//"修改昵称失败";
+"Toast_User_EditAvatar_Fail" = "edit avatar fails";//"修改头像失败";
+"Toast_User_EditSignature_Fail" = "edit signature fails";//"修改签名失败";
+"Toast_User_EditGender_Fail" = "edit gender fails";//"修改性别失败";
+"Toast_User_DeleteMyMessage_Fail" = "delete my message fails";//"我的消息删除失败";
+"Toast_User_DeleteMyComment_Fail" = "delete my comment fails";//"我的评论删除失败";
+"Toast_User_DeleteMyPublish_Fail" = "delete my publish fails";//"删帖失败";
+"Toast_User_Posts_Fail" = "post fails";//"投稿失败";
+"Toast_User_Comment_Fail" = "comment fails";//"发送评论失败";
+"Toast_User_Posts_Success" = "post success";//"投稿成功，小编正在为您审帖!";
+"Toast_User_Comment_Success" = "comment success";//"发送评论成功!";
+
+"Toast_User_Anonymity" = "this is anonymity";//"此为匿名用户";
+
+"Toast_Auth_EmptyMail" = "empty e-mail";//"邮箱不能为空";
+"Toast_Auth_EmptyPassword" = "empty password";//"密码不能为空";
+"Toast_Auth_InvalidMail" = "invalid e-mail";//"非法的邮箱";
+"Toast_Auth_InvalidPassword" = "invalid password";//"密码格式不正确";
+"Toast_Auth_InvalidMailAndPassword" = "mail or password is invalid";//"用户名或密码错误";
+"Toast_Auth_Fail" = "auth fail";//"验证失败";
+
+"Toast_RequestServer_Fail" = "Requests to the server fails";//"请求服务器失败";
+"Toast_Net_Error" = "net error";//"网络异常";
+"Toast_Net_Error_Check" = "please check your net";//"网络异常请查看网络";
+
+"Toast_ForgotPassword_Success" = "E-mail has been sent to your mailbox";//"已向邮箱中发送重置连接";
+"Toast_PostPI_Fail" = "Requests to the server fails";//"上传个人信息失败";
+"Toast_ActivateEmail_Success" = "E-mail has been sent to your mailbox";//"激活链接已发送到您邮箱";
+
+"Toast_Nickname_Short" = "Nickname is too short";//"您输入的昵称过短";
+"Toast_Nickname_Long" = "Nickname no more than 16 words";//"昵称不能多于16个字符";
+"Toast_Signature_Long" = "Nickname no more than 60 words";//"签名不能多于30个字";
+
+"Toast_LastTimeSee" = "The last time you see this";//"你上次看到这";
+"Toast_CannotSeePost" = "Posts are not on-line , you can not see";//"帖子未上线，不能查看";
+
+"Waiting_GetLatest" = "release to load more";//"释放加载更多";
+"Waiting_LoadMore" = "release to load more";//"释放加载更多";
+"Waiting_NoMoreDatas" = "no more datas";//"没有更多了";
+
+"Waiting_Logining" = "logining...";//"登录中...";
+"Waiting_Logouting" = "logouting";//"退出登录中...";
+"Waiting_Registing" = "registing...";//"注册中...";
+"Waiting_PostUsercenterInfos" = "posting infos";//"提交信息中";
+"Waiting_CommentPublishing" = "commenting";//"正在发评论...";
+"Waiting_NodePublishing" = "publishing";//"正在投稿...";
+"Waiting_Binding" = "binding";//"绑定中...";
+"Waiting_Unbinding" = "unbinding";//"解绑中...";
+"Waiting_Loading" = "loading";//"加载中...";
+
+"Date_JustNow" = "just now";//"刚刚";
+"Date_MinutesAgo" = "%d minutes ago";//"%d分钟前";
+"Date_HoursAgo" = "%d hours ago";//"%d小时前";
+"Date_Yesterday" = "yesterday %@";//"昨天 %@";
+"Date_TheDayBeforeYesterday" = "The day before yesterday %@";//"前天 %@";
+"Date_Date" = "%@/%@ %@";//"%@月%@日 %@;
+
+//详情页
+"Detail_Title" = "Detail";//"详情";
+"Detail_RightNavigationText" = "Report";//"举报";
+"Detail_ButtonText_LatestComment" = "latest comment";//"最新评论";
+"Detail_ButtonText_HotestComment" = "hotest comment";//"最热评论";
+"Detail_ButtonText_Comment" = "comment";//"评论";
+
+//举报页
+"Report_Title" = "Report";//"举报";
+"Report_Reason_Erotic" = "erotic";//"色情";
+"Report_Reason_AD" = "Ad";//"广告";
+"Report_Reason_Other" = "other";//"其他";
+
+//发表评论和帖子页
+"Publish_Comment_Title" = "Comment";//"评论";
+"Publish_Node_Title" = "Publish";//"投稿";
+"Publish_RightNavigationText" = "Release";//"发表";
+"Publish_ShareNote" = "Select the icon below to share";//"选中下面图标可转发";
+"Publish_PicNote" = "picture discription";//"图片描述";
+
+//menu页
+"Menu_NotLogin" = "not login";//"未登录";
+"Menu_Button_Cross" = "cross";//"穿越";
+"Menu_Button_Subject" = "subject";//"专题";
+"Menu_Button_Offline" = "offline";//"离线";
+"Menu_Button_Setting" = "setting";//"设置";
+"Menu_Button_Recommend" = "recommend";//"推荐";
+
+"Cross_Title" = "Cross";//"穿越";
+
+//登录页
+"Login_Title" = "Login";//"登录";
+"Login_RightNavigationText" = "Register";//"注册";
+"Login_Mail_Default" = "mail";//"邮箱";
+"Login_Password_Default" = "password";//"密码";
+"Login_Button_LoginText" = "login";//"登录";
+"Login_Button_ForgotPass" = "forgot password";//"忘记密码";
+"Login_Note_Other" = "use other accout to login";//"其他账号登录";
+
+//注册页
+"Register_Title" = "Register";//"注册";
+"Register_RightNavigationText" = "Next";//"下一步";
+"Register_Mail_Default" = "mail";//"邮箱";
+"Register_Password_Default" = "password";//"设定密码";
+"Register_Note_Mail" = "Please fill out the real mail";//"注册后不可修改，请填写真实邮箱";
+"Register_Note_Password" = "6-16 alphanumeric characters";//"英文数字字符6-16个";
+"Register_Button_Protocol" = "I agree with <Account Services Agreement>";//"我已阅读并同意《账号服务协议》";
+
+//忘记密码
+"FortogPassword_Title" = "Forgot password";//"找回密码";
+"FortogPassword_RightNavigationText" = "Release";//"提交";
+"FortogPassword_TextView_Default" = "mail";//"请输入登录邮箱";
+"FortogPassword_Note" = "We will send you e-mail a link to reset your password";//"请输入登录邮箱，我们将发送重置密码链接";
+
+"ActivateEmail_Title" = "Activate Email";//"激活邮箱";
+"ActivateEmail_RightNavigationText" = "Release";//"提交";
+"ActivateEmail_Note" = "After activating the mailbox, you can enjoy more services";//" 激活邮箱后，可享受更多服务";
+
+//个人信息
+"UserCenter_Button_Save" = "save";//"保存";
+"UserCenter_Button_Skip" = "skip";//"跳过";
+"UserCenter_Button_Logout" = "logout";//"退出登录";
+"UserCenter_Button_Finish" = "finish";//"完成";
+
+"UserCenter_Title" = "Usercenter";//"个人中心";
+"UserCenter_RightNavigationText" = "Edit";//"编辑";
+"UserCenter_Button_MyMessage" = "message";//"消息";
+"UserCenter_Button_MyComment" = "comment";//"评论";
+"UserCenter_Button_MyFavorite" = "favorite";//"收藏";
+"UserCenter_Button_MyPublish" = "publish";//"发布";
+
+"UserCenter_Title_Edit" = "Personal Information";//"个人资料";
+"UserCenter_Cell_BindNote" = "Account binding";//"账号绑定";
+"UserCenter_Cell_NotBind" = "Unbind";//"未绑定";
+"UserCenter_Cell_ActiveMailNote" = "E-mail activation";//"邮箱激活";
+"UserCenter_Cell_NotActiveMail" = "Inactive";//"未激活";
+ 
+"UserCenter_Title_EditNickname" = "Nickname";//"昵称";
+"UserCenter_Title_EditSignature" = "Signature";//"签名";
+"UserCenter_Title_InputPI" = "Fill PI";//"完善";
+"UserCenter_TextView_NicknameDefault" = "nickname";//"昵称";
+
+"UserCenter_Message_Somebody" = "somebody";//"有人";
+"UserCenter_Message_ReplyYourComment" = "%@ reply your comment!";//"%@回复了你的评论!";
+"UserCenter_Message_ReplyYourPost" = "%@ reply your post!";//"%@回复了你的帖子!";
+"UserCenter_Admin" = "administrators";//"管理员";
+
+"LoadData_UpdateFewNodes" = "update %d nodes to your";//"您已成功更新%d条";
+"LoadData_RecommendFewNodes" = "recomment %d nodes to your";//"为您推荐%d条新帖";
+"LoadData_NoNewNodes" = "no new nodes";//"暂时没有更新请稍后再来";
+"LoadData_CrossTo" = "you have been crossed to %@";//"您已穿越到 %@";
+
+"Offline_Title" = "Offline";//"离线";
+"Offline_NoWifi" = "It is not in wifi, are you continue?";//"您的网络不是wifi，下载将耗费过多流量，是否继续？"
+"Offline_Continue" = "continue";//"继续下载";
+"Offline_Canceling" = "canceling";//"取消中...";
+"Offline_NoMoreOfflineDatas" = "no more offline datas";//"已无更多离线";
+"Offline_Progress" = "is offline ...(%d/%d)";//"离线后无网络也能看图(%d/%d)";
+"Offline_Start" = "Retrieving offline information";//"正在获取离线信息!";
+"Offline_End" = "offline finished";//"已结束离线";
+"Offline_Canceled" = "offline canceled";//"已取消离线！";
+"Offline_NoDataToOffline" = "no more offline datas";//"已无更多可离线内容";
+"Offline_Success1" = "%@, offline %d nodes success";//"%@,已成功离线%d条";
+"Offline_Success2" = "offline %d nodes success, click to browse";//"您已成功离线%d条，点击查看离线内容";
+
+"LoadingPage_Go1" = "GO";//"马上哈哈";
+"LoadingPage_Go2" = "GO";//"立即体验";
+
+"About_About1" = "About";//"关于哈哈";
+
+"Share_FormHahaKantu" = "form hahakantu";//"来自哈哈看图"
+"Share_SinaWeibo" = "sina weibo";//"新浪微博"
+"Share_WeixinChat" = "wechat";//"微信好友";
+"Share_WeixinMoments" = "moments";//"朋友圈";
+"Share_QQZone" = "QQ zone";//"QQ空间";
+"Share_HahakantuAbout" = "blabla....%@";//"八岁那年，我捉到了一只蝉，我以为捉到了夏天，十八岁那年，我吻了哈哈看图的脸，就可以快乐到永远！想得到她请点击：%@";
+
+"Recomment_Title" = "Recomment";//"推荐";
+"SubjectDetail_Title" = "Subject detail";//"专题详情";
+"Subject_Title" = "Subject";//"专题";
+"Subject_HotNumber" = "hot";//"热度";
+
+"Setting_Title" = "Setting";//"应用设置";
+"Feedback_Title" = "Feedback";//"意见反馈";
+"Feedback_RightNavigationText" = "Post";//"发布";
+"Feedback_Thanks" = "thanks for your feedback!";//"感谢您的反馈";
+"Feedback_Empty" = "Can not be empty";//"请输入内容";
+"Feedback_TextDefault" = "input your advice";//"输入您的想法和建议";
+"Feedback_Age18" = "<18";//"18岁以下";
+"Feedback_Age40" = ">40";//"40岁以上";
+
+"Setting_NewVersion" = "new version %@";//"有新版本%@";
+"Setting_CurVersion" = "current version %@";//"当前版本%@";
+"Setting_ClearCache_onOffline" = "Offline is continuing";//"离线中，请稍后再试!";
+"Setting_ClearCache_Alert" = "Be sure to clear the cache ?";//"确认清除缓存？";
+"Setting_CacheClearing" = "cache clearing";//"清除缓存中...";
+"Setting_VersionChecking" = "version checking";//"检测版本中...";
+"Setting_PushWarning" = "Go to Settings->Notification Center to allow Haha Figure";//"请去设置-推送页打开哈哈看图的推送!";
+
+//plist
+//编辑个人信息页面
+"UserCenter_Cell_Avatar" = "Avatar";//"头像";
+"UserCenter_Cell_Nickname" = "nickname";//"昵称";
+"UserCenter_Cell_Gender" = "gender";//"性别";
+"UserCenter_Cell_Signature" = "signature";//"签名";
+"UserCenter_Cell_QQ" = "QQ";//"QQ";
+"UserCenter_Cell_SinaWeibo" = "WEIBO";//"微博";
+"UserCenter_Cell_JJ" = "JJ";//"JJ";
+"UserCenter_Cell_Mail" = "E-mail";//"邮箱";
+//设置页面
+"Setting_Cell_ClearCache" = "Cache Clear";//"清除缓存";
+"Setting_Cell_Push" = "Push";//"消息推送";
+"Setting_Cell_CheckUpdate" = "Update";//"检查更新";
+"Setting_Cell_ClearCache" = "App Share";//"应用分享";
+"Setting_Cell_ClearCache" = "About";//"关于哈哈";
+//反馈页面
+"Feedback_Cell_Contact" = "QQ or E-Mail or telephone";//"联系方式 (QQ 邮箱 电话)";
+//关于页面
+"About_About2" = "about";//"关于哈哈看图";
+"About_Protocol" = "protocol";//"软件协议";
+*/
